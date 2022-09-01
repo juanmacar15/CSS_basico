@@ -1,0 +1,37 @@
+
+/*selector universal*/
+*{
+    color: rgb(238, 59, 18);
+}
+
+/*selector de tipo*/
+h2{
+    color: rgb(0, 0, 255);
+}
+
+/*selector de clase*/
+.titulo-h3{
+    color: rgb(148, 0, 211);
+}
+
+/*selector por ID*/
+#id-h3{
+    color: rgb(105, 210, 0);
+}
+
+/*selector por atributo*/
+[atributo="h1"]{
+    color: magenta;
+}
+
+/*selector descendiente*/
+h2 p{
+    background-color: rgb(128, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+/*selector por pseudo clase*/
+.hover-h1:hover{
+     
+    color: gold;
+}
