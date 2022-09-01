@@ -1,37 +1,28 @@
-
-/*selector universal*/
-*{
-    color: rgb(238, 59, 18);
+/*especificidad para elementos, pseudo-elementos*/
+h1{
+    color: blue;
 }
 
-/*selector de tipo*/
-h2{
-    color: rgb(0, 0, 255);
+/*gerarquia clases, pseudo-clases, atributo*/
+
+.color-h1{
+    color: aqua;
 }
 
-/*selector de clase*/
-.titulo-h3{
-    color: rgb(148, 0, 211);
+.color-h1{
+    color: rgb(176, 8, 243);
 }
 
-/*selector por ID*/
-#id-h3{
-    color: rgb(105, 210, 0);
+/*gerarquia identificadores*/
+#color-h2{
+    color: crimson; /*el id es de mayor gerarquia que una clase*/
 }
 
-/*selector por atributo*/
-[atributo="h1"]{
-    color: magenta;
+.color-h2{
+    color: blue;
 }
 
-/*selector descendiente*/
-h2 p{
-    background-color: rgb(128, 255, 0);
-    color: rgb(0, 0, 0);
-}
-
-/*selector por pseudo clase*/
-.hover-h1:hover{
-     
-    color: gold;
+/*gerarquia !important*/
+h3{
+    color: greenyellow !important
 }
