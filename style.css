@@ -1,28 +1,21 @@
-/*especificidad para elementos, pseudo-elementos*/
-h1{
-    color: blue;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-/*gerarquia clases, pseudo-clases, atributo*/
 
-.color-h1{
-    color: aqua;
+/*em*/
+
+.unidad{
+    width: 300px;
+    background-color:aquamarine;
+    font-size: 2em; /*1 em equivale a 16 px*/
 }
 
-.color-h1{
-    color: rgb(176, 8, 243);
-}
-
-/*gerarquia identificadores*/
-#color-h2{
-    color: crimson; /*el id es de mayor gerarquia que una clase*/
-}
-
-.color-h2{
-    color: blue;
-}
-
-/*gerarquia !important*/
-h3{
-    color: greenyellow !important
+/*vw y vh*/
+.contenedor{
+    font-size: 25px;
+    background-color: crimson;
+    width: 50vw;
+    height: 50vh;
 }
