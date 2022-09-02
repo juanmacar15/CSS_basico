@@ -1,25 +1,7 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
-.propiedades{
-    background-color: blue;
-    font-size: 3em; /*tamaño de la letra*/
-    font-family: 'Dancing Script', cursive; /*tipografia de la letra*/
-    line-height: 2.0; /*es interlineado entre cada renglon*/
-    font-weight: 10; /*es el grosor de la letra*/
-}
-
-/*aqui se explica mejor el interlineado "line-height" */
-.line-height-1{
+h1{
     background-color: crimson;
-    width: 400px;
-    line-height: 1;
 }
-
-.line-height-2{
-    background-color:darkorange;
-    width: 400px;
-    line-height: 2;
+p{
+    background-color: chartreuse;
 }
