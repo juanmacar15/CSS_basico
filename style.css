@@ -1,7 +1,15 @@
-
-h1{
-    background-color: crimson;
+*{
+    font-weight: 100;
+    font-size: 30px;
 }
+
+h2{
+    display: inline;/*como en un elemento en bloque con esta opcion ahora se encuentra como un elemento en linea*/
+    
+}
+
 p{
-    background-color: chartreuse;
+    /*p es un elemento en bloque, a este si se le pueden dar este tipo de propiedades*/
+    height: 200px ;
+    width: 100px;
 }
