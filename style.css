@@ -4,28 +4,13 @@
     font-size: 30px;
 }
 
-
-/*position absolute*/
-div{
-    width: 100px;
-    height: 100px;
-    display:block;
-    text-align: center;
+body{
+    padding-top: 100px;
 }
 
-.caja1{
-    background-color: chartreuse;
+/*position fixed*/
+.arriba{
+    background-color:crimson ;
+    position: fixed;
+    margin: -100px;
 }
-
-.caja2{
-    background-color:aqua ;
-    /*position absolute al momento d agregarsela a un contenedor si hay otro contendeor debajo, ese contenedor tomara la posicion del contenedor al que se le agrego la opcion*/
-    position: absolute;
-    opacity: 0.5;
-    margin-left: 60px;
-}
-
-.caja3{
-    background-color:crimson;
-}
-
