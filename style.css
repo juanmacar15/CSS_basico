@@ -21,14 +21,31 @@ div{
     background-color:aqua ;
     /*position relative mantiene la posicion pero se puede modifar el top, right, bottom, left y el contenedor que se encuentra debajo no podra tomar la posicion de este*/
     position: relative;
-    top: 30px;
+    top: 120px;
     left: 100px;
+    /*el z-index se utiliza para superponer un contenedor encima del otro, cabe resaltar que para agregar el z-index los contenedores con los que se van a trabajar deben tener una posicion*/
+    z-index: 20;
 }
 
 .caja3{
     background-color:crimson;
+    position: relative;
+    z-index: 10;
 }
 
+/*otra forma de aplicar z-index*/
 .caja4{
+    top: 100px;
+    left: 100px;
     background-color: darkorange;    
+    position: relative;
+}
+.mini4{
+    top: -20px;
+    left: -20px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    z-index: -1;
 }
