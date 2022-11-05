@@ -4,13 +4,9 @@
     font-size: 30px;
 }
 
-body{
-    padding-top: 100px;
-}
-
-/*position fixed*/
-.arriba{
+/*position sticky*/
+.caja-sticky{
     background-color:crimson ;
-    position: fixed;
-    margin: -100px;
+    position: sticky;
+    top: 0;
 }
